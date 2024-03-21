@@ -1,0 +1,90 @@
+body {
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 300px;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu ul li {
+    padding: 10px;
+}
+
+.menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+
+.menu ul li a:hover {
+    background-color: #555;
+}
+
+.con {
+    margin-left: 300px; 
+}
+
+#topic {
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+#profile {
+    width: 180px; 
+    height: 200px; 
+    padding: 70px;
+}
+img{
+    border-radius: 50%;
+}
+
+#content{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+#personal {
+    background-color: #cccccc; 
+    padding: 20px;
+}
+
+#contact {
+    background-color: #cccccc;
+    padding: 20px;
+}
+
+#edu {
+    background-color: #cccccc; 
+    padding: 20px;
+}
+
+#tech {
+    background-color: #cccccc; 
+    padding: 20px;
+}
+#paper {
+    background-color: #cccccc; 
+    padding: 20px;
+}
+#description{
+    background-color: #cccccc; 
+    padding: 20px;
+}
